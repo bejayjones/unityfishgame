@@ -1,0 +1,39 @@
+//////////////////////////////////////////////////////////////////////////////////////
+FlockBox - Entity Component System powered Flocking Solution		v1.2
+//////////////////////////////////////////////////////////////////////////////////////
+
+First steps:
+FlockBox works with "Entities" and "Hybrid Renderer" packges.
+To add them to your project open: Windows > Package Manager.
+In "Advanced" menu enable "Show preview packages"
+Then find "Entities" package and "Install"
+Next find "Hybrid Renderer" package and "Install"
+
+- Burst compiler and Mathematics are also included with Entities,
+so now you are ready to use Unity ECS and Flock Box.
+
+Open "Fish Flock" demo scene located in FLOCKBOX > Demo.
+Select FlockBox prefab in Hierarchy.
+As you see, FlockBox prefab allows you to create multiple entities using meshes & materials added to "Render Units".
+Press play to see it in action.
+
+
+To add FlockBox to your project, just simple drag "FlockBox" prefab from ECS folder to your scene,
+set flocking box area size via scaling it in scene or manualy set scale in FlockBox transform.
+Set how many object types you want to use in "Render Units", fill Unity mesh & material properties.
+Add how many entities you want to create in Count field.
+Change Flocking parameters if needed.(Size, Speed, etc...)
+The goal position is changed within random time set by Change Goal parameters.
+
+Thats it, press play and FlockBox generate flocking entities for you into the box area.
+
+
+Version 1.2 checked with:
+-Unity 2019.3.8f1
+-Entities preview 6 Version 0.10.0
+-Hybrid Renderer preview 6 Version 0.5.0
+
+
+//////////////////////////////////////////////////////////////////////////////////////
+Support:	suni.games.europe@gmail.com
+//////////////////////////////////////////////////////////////////////////////////////
